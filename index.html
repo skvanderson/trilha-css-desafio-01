@@ -5,6 +5,75 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header.banner {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header.banner .banner-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header.banner h1 {
+      font-size: 2em;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    #course-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .modules-list .module {
+      margin-bottom: 10px;
+    }
+
+    #transform-world {
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    #professional-challenges {
+      background-color: #f39c12;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -14,25 +83,25 @@
       </div>
       <h1>Trilha de CSS da DIO</h1>
       <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
+      <button style="background-color: #fff; color: #4CAF50; border: 2px solid #4CAF50; padding: 10px 20px; font-size: 1em;">Quero me inscrever</button>
     </div>
   </header>
   <main>
     <section id="course-content">
-      <h2>O que vou aprender?</h2>
+      <h2 style="color: #4CAF50;">O que vou aprender?</h2>
       <p>
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
         desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
       </p>
       <div class="modules-list">
         <div class="module">
-          <span>Módulo 01:</span> primeiros passos com CSS
+          <span style="color: #4CAF50;">Módulo 01:</span> primeiros passos com CSS
         </div>
         <div class="module">
-          <span>Módulo 02:</span> trabalhando com layouts no CSS
+          <span style="color: #4CAF50;">Módulo 02:</span> trabalhando com layouts no CSS
         </div>
         <div class="module">
-          <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
+          <span style="color: #4CAF50;">Módulo 03:</span> refinando os estilos CSS das nossas páginas
         </div>
       </div>
     </section>
@@ -52,7 +121,7 @@
   </main>
   <footer>
     <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <p>Acesse <a href="https://dio.me" style="color: #4CAF50;">dio.me</a> e se cadastre agora</p>
   </footer>
 </body>
 </html>
